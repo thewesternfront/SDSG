@@ -8,7 +8,10 @@ public class Main {
         Character Troy = new Character("Troy", "Void Elf", "Frost Mage");
         Troy.describeCharacter();
 
-        Armor myArmor = new Armor();
-        myArmor.printArmorWeight();
+        Armor TroyArmor = new Armor("Mage\'s Robe", "Cloth", 3, 100);
+        TroyArmor.getArmorStats();
+
+        //Armor myArmor = new Armor();
+        //myArmor.getArmorStats();
     }
 }

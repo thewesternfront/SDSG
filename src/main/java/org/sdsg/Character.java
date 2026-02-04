@@ -7,7 +7,8 @@ public class Character {
     String cname;
     String crace;
     String cclass;
-    Armor carmor = new Armor();
+    Armor carmor;
+    Items citems;
 
     // Constructor
     public Character(String cname, String crace, String cclass) {
@@ -17,6 +18,8 @@ public class Character {
         Armor.ArmorWeight cArmorWeight = Light;
 
     }
+
+
 
     // Name /////////////////////////////////
     public String getCname() {
